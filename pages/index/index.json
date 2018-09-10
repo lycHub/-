@@ -1,0 +1,8 @@
+{
+	"navigationBarTitleText": "首页",
+	"usingComponents": {
+		"dialog": "/ui/dialog/dialog",
+		"collapse": "/ui/collapseset/collapse/collapse",
+		"collapseset": "/ui/collapseset/collapseset"
+	}
+}

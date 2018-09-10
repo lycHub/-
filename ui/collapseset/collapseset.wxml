@@ -1,0 +1,30 @@
+<view class="collapseset">
+	<slot></slot>
+</view>
+
+
+<!--
+ collaspeData: [
+			 {
+				 title: '面板一',
+				 content: '内容一'
+			 },
+			 {
+				 title: '面板二',
+				 content: '内容二'
+			 },
+			 {
+				 title: '面板三',
+				 content: '内容三'
+			 }
+		 ]
+
+		 
+	<collapseset hqAccordion="true">
+			<collapse wx:for="{{collaspeData}}"
+			 title="{{item.title}}"
+			 hqActive="{{item.active}}">
+				{{item.content}}
+			</collapse>
+		</collapseset>
+-->

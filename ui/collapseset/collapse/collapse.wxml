@@ -1,0 +1,11 @@
+<view class='collapse'>
+	<view class="header-wrapper {{_active ? 'active' : ''}} {{hqDisabled ? 'disabled' : ''}}" catchtap='controlPanel'>
+		<view class='header'>
+			<text class='title'>{{title}}</text>
+			<text class='arrow'>＞</text>
+		</view>
+	</view>
+	<view class="content-wrapper {{_active ? 'active' : ''}}">
+		<view class='content'><slot></slot></view>
+	</view>
+</view>

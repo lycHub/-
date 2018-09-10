@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+	<view class='wrapper' style='width: 100%;'>
+		<collapseset hqAccordion="true">
+			<collapse wx:for="{{collaspeData}}"
+			 title="{{item.title}}"
+			 hqActive="{{item.active}}">
+				{{item.content}}
+			</collapse>
+		</collapseset>
+	</view>
+</view>

@@ -1,0 +1,23 @@
+<view class='dialog' wx:if="{{showDialog}}">
+    <view class='dialog-wrapper'>
+      <view class='title'>{{title}}</view>
+      <view class='content'>
+        <slot></slot>
+      </view>
+      <view class='btns'>
+        <button catch:tap="cancel">{{cancelTxt}}</button>
+        <button type='primary'>{{confirmTxt}}</button>
+      </view>
+    </view>
+  </view>
+
+
+	<!--
+	调用
+		<dialog id="dialog" 
+	cancelTxt="关闭"
+	show-dialog="{{showDialog}}"
+	bind:cancel="onCancel">
+		<text>这是内容</text>
+	</dialog>
+	-->

@@ -1,0 +1,28 @@
+.dialog{
+    position: fixed;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+		.dialog .dialog-wrapper .title{
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background-color: #797979;
+        }
+
+					.dialog .dialog-wrapper .content{
+            height: 100px;
+            background-color: #fff;
+        }
+
+        	.dialog .dialog-wrapper .btns{
+            display: flex;
+        }
+
+				.dialog .dialog-wrapper .btns button{
+                display: block;
+                width: 50%;
+            }
